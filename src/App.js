@@ -10,7 +10,9 @@ function App() {
           Welcome to my basic React App.
         </p>
         <p>
-          This is a test of Firebase hosted app with a Firestore backend.
+          This is a test of Firebase hosted app.<br></br>
+          Eventually it will have a database backend and Authentication.<br></br>
+          Later on looking to implement Remote Config, A/B Testing, App Check and Google Analytics.
         </p>
         <p>
           <a
@@ -21,6 +23,25 @@ function App() {
           >
             Learning React?
           </a>
+          <br></br>
+           <a
+            className="App-link"
+            href="https://github.com/AnthonyWrather/my-app/wiki"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            The project Wiki Page.
+          </a>
+          <br></br>
+          <a
+            className="App-link"
+            href="https://github.com/AnthonyWrather/my-app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            The project GitHub repo.
+          </a>
+
         </p>
       </header>
     </div>
